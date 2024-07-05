@@ -1,20 +1,15 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navigationbar from "./componenets/Navigationbar";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Contact from "./pages/contact";
+import React from "react";
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Navigationbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+import Navbar from "./componenets/NavigationBar/Navbar";
+
+import "./App.css";
+
+const App = () => (
+  <div className="App">
+    <div className="gradient__bg">
+      <Navbar />
+    </div>
+  </div>
+);
 
 export default App;
