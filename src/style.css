@@ -1,0 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+
+  --gradient-text: linear-gradient(90deg, rgba(203,172,56,1) 35%, rgba(227,195,30,1) 56%, rgba(236,204,20,1) 70%, rgba(255,222,0,1) 85%, rgba(255,222,0,1) 90%, rgba(255,222,0,1) 97%);
+  --gradient-bar: linear-gradient(90deg, rgba(203,172,56,1) 35%, rgba(227,195,30,1) 56%, rgba(236,204,20,1) 70%, rgba(255,222,0,1) 85%, rgba(255,222,0,1) 90%, rgba(255,222,0,1) 97%);
+  
+  --color-bg:  radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  --color-footer :  radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  --color-blog:  radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  --color-text: #FCE44D;
+  --color-subtext: #FBEAAB;
+}
