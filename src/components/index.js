@@ -1,21 +1,21 @@
-import Billing from "./Billing";
+import Services from "./Services";
 import Business from "./Business";
-import CardDeal from "./CardDeal";
-import Feedback from "./Feedback";
+import Locations from "./Locations";
+import Feedback from "./Introduction";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Stats from "./Stats";
-import Testimonials from "./Testimonials";
+import Trainers from "./Trainers";
 
 export {
-  Billing,
+  Services,
   Business,
-  CardDeal,
+  Locations,
   Feedback,
   Footer,
   Hero,
   Navbar,
   Stats,
-  Testimonials,
+  Trainers,
 };

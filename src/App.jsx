@@ -1,13 +1,13 @@
 import React from 'react'
 import { 
-  Billing, 
+  Services, 
   Business, 
-  CardDeal, 
+  Locations, 
   Footer, 
   Hero, 
   Navbar, 
   Stats, 
-  Testimonials 
+  Trainers 
 } from './components'
 import styles from './style'
 
@@ -28,9 +28,9 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Business/>
-          <Billing/>
-          <CardDeal/>
-          <Testimonials/>
+          <Services/>
+          <Trainers/>
+          <Locations/>
           <Footer/>     
         </div>
       </div>
