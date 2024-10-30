@@ -20,10 +20,10 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Екип",
+    title: "Услуги",
   },
   {
-    id: "clients",
+    id: "about-us",
     title: "За нас",
   },
   {
@@ -103,7 +103,7 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Контакти",
+    title: "Контакти:",
     links: [
       {
         name: "Телефон: 0888888888",

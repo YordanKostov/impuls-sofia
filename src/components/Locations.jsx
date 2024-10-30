@@ -3,11 +3,11 @@ import { card } from '../assets'
 import Button from './Button'
 import styles, { layout } from '../style'
 
-const CardDeal = () => {
+const Locations = () => {
   return (
-    <section className={layout.section}>
+    <section id='contacts' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Къде може да <br className='sm:block hidden'/>ни откриете.</h2>
+        <h2 className={styles.heading2}>Къде може да <br className='sm:block hidden'/>ни откриете?</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Тренировките се провеждат на няколко удобни и комуникативни локации, предлагащи лесен достъп, както с кола така и с градски транспорт. 
         </p>
@@ -24,4 +24,4 @@ const CardDeal = () => {
   )
 }
 
-export default CardDeal
+export default Locations

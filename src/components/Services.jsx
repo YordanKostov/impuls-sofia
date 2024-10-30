@@ -2,7 +2,7 @@ import React from "react";
 import { apple, billing, google } from "../assets";
 import styles, { layout } from "../style";
 
-const Billing = () => {
+const Services = () => {
   return (
     <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
@@ -30,4 +30,4 @@ const Billing = () => {
   );
 };
 
-export default Billing;
+export default Services;
